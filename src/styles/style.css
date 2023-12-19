@@ -1,0 +1,28 @@
+/* Example CSS file or CSS-in-JS solution */
+@keyframes bounceAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animated-icon {
+  animation: bounceAnimation 0.5s ease 2; /* Apply animation to the icon */
+}
+
+.logo {
+  height: 35px !important;
+  height: auto;
+}
+
+.header-bg {
+  background: url("../assets/images/startled-curly-haired-busy-young-woman-surrounded-by-yellow-laundry-loads-dirty-linen-does-home-chores-poses-through-washing-maching-door.jpg") !important;
+  /* background-color: blue; */
+  background-size: cover;
+  background-position: center;
+}
